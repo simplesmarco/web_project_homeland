@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 34px;
+  padding-bottom: 90px;
+}
+
+@media screen and (max-width: 1280px) {
+  .header {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+}
+
+.header__logo {
+  width: 32px;
+  height: 32px;
+  left: 111px;
+  top: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    width: 23px;
+    height: 23px;
+  }
+}
+
+.header__title {
+  max-width: 254.84px;
+  max-height: 14.09px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__title {
+    max-width: 188px;
+    max-height: 11px;
+    font-size: 14px;
+  }
+}
